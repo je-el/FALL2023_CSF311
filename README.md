@@ -9,7 +9,7 @@ __Topics:__
 ### Assignments:
 - [x] [Assignment 1](https://github.com/je-el/FALL2023_CSF311/tree/main/Assignments/Assignment_1) _LATE_
     - [x] Received Grade and Feedback
-- [x] (Assignment 2)[https://github.com/je-el/FALL2023_CSF311/tree/main/Assignments/Assignment_2] _LATE_
+- [x] [Assignment 2](https://github.com/je-el/FALL2023_CSF311/tree/main/Assignments/Assignment_2) _LATE_
     - [x] Received Grade and Feedback
 - [x] [Assignment 3](https://github.com/je-el/FALL2023_CSF311/tree/main/Assignments/Assignment_3) _LATE_
     - [ ] Received Grade and Feedback
