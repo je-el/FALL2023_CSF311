@@ -7,15 +7,15 @@ __Topics:__
 
 
 ### Assignments:
-- [x] [Assignment_1](Assignment 1) LATE
+- [x] [Assignment 1](Assignment_1) _LATE_
     - [x] Received Grade and Feedback
-- [x] [Assignment_2](Assignment 2) LATE
+- [x] (Assignment 2)[Assignment_2] _LATE_
     - [x] Received Grade and Feedback
-- [x] [Assignment_3](Assignment 3) LATE
+- [x] [Assignment 3](Assignment_3) _LATE_
     - [ ] Received Grade and Feedback
-- [ ] [Assignment_4](Assignment 4) LATE
+- [ ] [Assignment 4](Assignment_4) _LATE_
     - [ ] Received Grade and Feedback
-- [ ] [Assignment_5](Assignment 5)
+- [ ] [Assignment 5](Assignment_5) _LATE_
     - [ ] Received Grade and Feedback
     - working as a group with Lisa Jacklin see submodule repo in Assignment folder
 - [ ] *Not assigned yet* Assignment 6
