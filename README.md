@@ -7,15 +7,15 @@ __Topics:__
 
 
 ### Assignments:
-- [x] [Assignment 1](Assignment_1) _LATE_
+- [x] [Assignment 1](https://github.com/je-el/FALL2023_CSF311/tree/main/Assignments/Assignment_1) _LATE_
     - [x] Received Grade and Feedback
-- [x] (Assignment 2)[Assignment_2] _LATE_
+- [x] (Assignment 2)[https://github.com/je-el/FALL2023_CSF311/tree/main/Assignments/Assignment_2] _LATE_
     - [x] Received Grade and Feedback
-- [x] [Assignment 3](Assignment_3) _LATE_
+- [x] [Assignment 3](https://github.com/je-el/FALL2023_CSF311/tree/main/Assignments/Assignment_3) _LATE_
     - [ ] Received Grade and Feedback
-- [ ] [Assignment 4](Assignment_4) _LATE_
+- [ ] [Assignment 4](https://github.com/je-el/FALL2023_CSF311/tree/main/Assignments/Assignment_4) _LATE_
     - [ ] Received Grade and Feedback
-- [ ] [Assignment 5](Assignment_5) _LATE_
+- [ ] [Assignment 5](https://github.com/je-el/FALL2023_CSF311/tree/main/Assignments/Assignment_5) _LATE_
     - [ ] Received Grade and Feedback
     - working as a group with Lisa Jacklin see submodule repo in Assignment folder
 - [ ] *Not assigned yet* Assignment 6
