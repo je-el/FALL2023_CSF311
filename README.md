@@ -1,7 +1,6 @@
 # Fall 2023 Data Structures and Algorithms at the University of Alaska Fairbanks
 __Course Webpage__: [CSF311](http://www.cs.uaf.edu/~chappell/class/2023_fall/cs311/)  
-__Course Description:__  
-[Syllabus](https://www.cs.uaf.edu/~chappell/class/2023_fall/cs311/docs/syllabus.html)
+__Course Description:__ [Syllabus](https://www.cs.uaf.edu/~chappell/class/2023_fall/cs311/docs/syllabus.html)
 > CS 311 builds on CS 202. Emphasis is on writing robust, reliable, maintainable code to organize information (data structures) and work with it (algorithms), with minimal use of time and other resources (efficiency).  
 __Topics:__  
 > dvanced C++, software engineering concepts, recursion, searching, algorithmic efficiency, sorting. Then data abstraction & structures: array, Linked List, Stack & Queue, trees, Priority Queue, Tables. Briefly, external data and graph algorithms.
