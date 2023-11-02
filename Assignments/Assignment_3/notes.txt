@@ -1,3 +1,5 @@
+Assignment link: https://www.cs.uaf.edu/~chappell/class/2023_fall/cs311/docs/d-assn03d.html
+
 from .cpp
 /* Exercise C - Check Sorted
 template <typename FDIter>
