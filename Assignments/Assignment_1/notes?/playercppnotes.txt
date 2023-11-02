@@ -1,0 +1,94 @@
+#include "player.hpp"
+#include <cassert>
+
+// Default constructor: Initializes member variables with default values
+Player::Player() : realName("UNKNOWN"), username("UNKNOWN"), games(0) {}
+
+// Parameterized constructor: Initializes member variables with provided values
+Player::Player(const std::string& realName, const std::string& username, int gamesPlayed)
+    : realName(realName), username(username), games(gamesPlayed) {
+    assert(gamesPlayed >= 0); // Ensure number of games played is non-negative
+}
+
+// Getters
+
+std::string Player::getRealName() const {
+    return realName; // Return real name
+}
+
+std::string Player::getUsername() const {
+    return username; // Return username
+}
+
+int Player::getGames() const {
+    return games; // Return number of games played
+}
+
+// Setters
+
+void Player::setRealName(const std::string& realName) {
+    this->realName = realName; // Set real name
+}
+
+void Player::setUsername(const std::string& username) {
+    this->username = username; // Set username
+}
+
+void Player::setGames(int games) {
+    assert(games >= 0); // Ensure number of games played is non-negative
+    this->games = games; // Set number of games played
+}
+
+// Return whether the player is inactive (has played 0 games)
+bool Player::inactive() const {
+    return games == 0;
+}
+
+// Return a formatted string representing the player's data
+std::string Player::toString() const {
+    return realName + " (" + username + "): " + std::to_string(games);
+}
+
+// Operator overloads
+
+// Pre-increment: Increase games played by 1
+Player& Player::operator++() {
+    ++games;
+    return *this;
+}
+
+// Post-increment: Increase games played by 1, but return the state of the player before the increment
+Player Player::operator++(int) {
+    Player tmp(*this);
+    ++(*this);
+    return tmp;
+}
+
+// Pre-decrement: Decrease games played by 1 (but not below 0)
+Player& Player::operator--() {
+    if (games > 0) --games;
+    return *this;
+}
+
+// Post-decrement: Decrease games played by 1 (but not below 0), but return the state of the player before the decrement
+Player Player::operator--(int) {
+    Player tmp(*this);
+    --(*this);
+    return tmp;
+}
+
+// Equality operator: Check if two players are identical in all their data
+bool operator==(const Player& lhs, const Player& rhs) {
+    return lhs.realName == rhs.realName && lhs.username == rhs.username && lhs.games == rhs.games;
+}
+
+// Inequality operator: Check if two players are different in any of their data
+bool operator!=(const Player& lhs, const Player& rhs) {
+    return !(lhs == rhs);
+}
+
+// Stream insertion operator: Allows for easy output of a player's data using ostream (e.g., std::cout)
+std::ostream& operator<<(std::ostream& os, const Player& player) {
+    os << player.toString();
+    return os;
+}

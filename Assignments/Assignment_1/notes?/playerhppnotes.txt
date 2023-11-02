@@ -1,0 +1,52 @@
+#ifndef PLAYER_HPP
+#define PLAYER_HPP
+
+#include <string>
+#include <iostream>
+
+// Define the Player class
+class Player {
+public:
+    // Default constructor: Initializes member variables with default values
+    Player();
+
+    // Parameterized constructor: Initializes member variables with provided values
+    Player(const std::string& realName, const std::string& username, int gamesPlayed);
+
+    // Getters: Retrieve the values of member variables
+
+    std::string getRealName() const; // Returns the player's real name
+    std::string getUsername() const; // Returns the player's username
+    int getGames() const; // Returns the number of games the player has played
+
+    // Setters: Set the values of member variables
+
+    void setRealName(const std::string& realName); // Sets the player's real name
+    void setUsername(const std::string& username); // Sets the player's username
+    void setGames(int games); // Sets the number of games the player has played
+
+    // Member function to check if the player is inactive (i.e., has played zero games)
+    bool inactive() const;
+
+    // Returns a formatted string representation of the player's data
+    std::string toString() const;
+
+    // Operator overloads
+
+    // Pre- and post-increment: Increase the games played by 1
+    Player& operator++(); 
+    Player operator++(int);
+
+    // Pre- and post-decrement: Decrease the games played by 1 (but not below 0)
+    Player& operator--();
+    Player operator--(int);
+
+    // Equality and Inequality: Check if two players have the same data
+    friend bool operator==(const Player& lhs, const Player& rhs);
+    friend bool operator!=(const Player& lhs, const Player& rhs);
+
+    // Stream insertion: Allows for easy printing of player data using ostream (e.g., std::cout)
+    friend std::ostream& operator<<(std::ostream& os, const Player& player);
+};
+
+#endif // PLAYER_HPP

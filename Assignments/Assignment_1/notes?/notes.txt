@@ -1,0 +1,15 @@
+The condition !username.empty() only checks if the string username is not empty. It doesn't check if the string is just composed of spaces.
+
+For instance:
+
+" " (a string of spaces) will pass the !username.empty() check because it's not technically empty.
+However, it will fail the username != " " condition because, if username contains only one space, it's equal to " ".
+So, if you want to ensure that the username is neither empty nor just a string of spaces, you should adjust the assertion like this:
+
+```
+assert(!username.empty() && username.find_first_not_of(' ') != std::string::npos);
+```
+This will ensure that:
+
+The username is not empty.
+The username has at least one character that isn't a space.

@@ -1,0 +1,17 @@
+from .cpp
+/* Exercise C - Check Sorted
+template <typename FDIter>
+bool checkSorted(FDIter first, FDIter last) {
+    if (first == last) return true;
+
+    FDIter next = first;
+    next++;
+
+    while (next != last) {
+        if (*next < *first) return false;
+        first = next;
+        next++;
+    }
+
+    return true;
+}*/
