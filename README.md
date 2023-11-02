@@ -35,7 +35,7 @@ __Topics:__
 ### Midterm and Final:
 *These are paper exams, you are allowed a cheatsheet on a page that is 11x8, you may use both sides!*
 - [x] Midterm Exam (Midterm) Grade: 71/150
-- [ ] Final Exam (Final) Grade: §§/¶¶¶
+- [ ] Final Exam (Final) Grade: §§§/¶¶¶
 
 ### Grade System:
 | Assignment Type | Total Points |
