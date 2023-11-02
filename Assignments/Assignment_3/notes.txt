@@ -17,3 +17,12 @@ bool checkSorted(FDIter first, FDIter last) {
 
     return true;
 }*/
+/*Exercise D
+int gcd(int a, int b) {
+    // base case: when a or b is 0, return the other number as gcd
+    if (a == 0) return b;
+    if (b == 0) return a;
+
+    // recursive case: when a and b are both non-zero, update a and b with b and a mod b respectively
+    return gcd(b, a % b);
+}*/
