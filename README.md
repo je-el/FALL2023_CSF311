@@ -30,7 +30,8 @@ __Topics:__
 - [ ] Quiz 7 *missed deadline*
 - [x] Quiz 8
 - [x] Quiz 9
-- [ ] Quiz 10
+- [x] Quiz 10
+- [ ] Quiz 11
 
 ### Midterm and Final:
 *These are paper exams, you are allowed a cheatsheet on a page that is 11x8, you may use both sides!*
