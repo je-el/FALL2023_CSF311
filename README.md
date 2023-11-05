@@ -13,12 +13,13 @@ __Topics:__
     - [x] Received Grade and Feedback
 - [x] [Assignment 3](https://github.com/je-el/FALL2023_CSF311/tree/main/Assignments/Assignment_3) _LATE_
     - [ ] Received Grade and Feedback
-- [ ] [Assignment 4](https://github.com/je-el/FALL2023_CSF311/tree/main/Assignments/Assignment_4) _LATE_
+- [ ] [Assignment 4](https://github.com/je-el/FALL2023_CSF311/tree/main/Assignments/Assignment_4) _have not turned in_
     - [ ] Received Grade and Feedback
 - [ ] [Assignment 5](https://github.com/je-el/FALL2023_CSF311/tree/main/Assignments/Assignment_5) _LATE_
     - [ ] Received Grade and Feedback
     - working as a group with Lisa Jacklin see submodule repo in Assignment folder
-- [ ] *Not assigned yet* Assignment 6
+- [ ] Assignment 6
+    - working as a group with Lisa Jacklin see submodule repo in Assignment folder  
 - [ ] *Tentative* Assignment 7
 ### Quizzes:
 - [x] Quiz 1
