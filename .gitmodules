@@ -1,3 +1,6 @@
 [submodule "Assignments/Assignment_5/CS311_HW5_MSArray"]
 	path = Assignments/Assignment_5/CS311_HW5_MSArray
 	url = git@github.com:LisaJacklin/CS311_HW5_MSArray.git
+[submodule "Assignments/Assignment_6/CS311_HW6_LinkedList"]
+	path = Assignments/Assignment_6/CS311_HW6_LinkedList
+	url = git@github.com:LisaJacklin/CS311_HW6_LinkedList.git
