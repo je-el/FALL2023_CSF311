@@ -160,34 +160,31 @@ The order of the `meow` function, therefore, is \( O(n) \). This means the time 
 ### Table Operation Efficiency 
 The efficiency of table operations, such as retrieve, insert, delete, and traverse, can vary significantly depending on the specific data structure used to implement the table. Common data structures include arrays, linked lists, binary search trees, and hash tables. Here's a general overview of the efficiency of these operations in each structure:
 
-1. **Array (Unsorted):**
-   - Retrieve: O(n) — Linear search is needed.
-   - Insert: O(1) — If space is available and insertion is at the end.
-   - Delete: O(n) — Requires shifting elements.
-   - Traverse: O(n) — Linear traversal.
+Here's the information arranged in a table format:
 
-2. **Array (Sorted):**
-   - Retrieve: O(log n) — Binary search can be used.
-   - Insert: O(n) — Finding the position takes O(log n), but insertion requires shifting elements.
-   - Delete: O(n) — After finding the element, shifting is needed.
-   - Traverse: O(n) — Linear traversal.
+| Data Structure                     | Operation | Efficiency               | Description                                  |
+|------------------------------------|-----------|--------------------------|----------------------------------------------|
+| **Array (Unsorted)**               | Retrieve  | O(n)                     | Linear search is needed.                     |
+|                                    | Insert    | O(1)                     | If space is available and insertion is at the end. |
+|                                    | Delete    | O(n)                     | Requires shifting elements.                 |
+|                                    | Traverse  | O(n)                     | Linear traversal.                            |
+| **Array (Sorted)**                 | Retrieve  | O(log n)                 | Binary search can be used.                   |
+|                                    | Insert    | O(n)                     | Finding the position takes O(log n), but insertion requires shifting elements. |
+|                                    | Delete    | O(n)                     | After finding the element, shifting is needed. |
+|                                    | Traverse  | O(n)                     | Linear traversal.                            |
+| **Linked List (Unsorted/Sorted)**  | Retrieve  | O(n)                     | Linear search.                               |
+|                                    | Insert    | O(1) for unsorted, O(n) for sorted | O(1) if inserting at the beginning for unsorted; O(n) for sorted to find the correct position. |
+|                                    | Delete    | O(n)                     | Search for the element and then remove it.   |
+|                                    | Traverse  | O(n)                     | Linear traversal.                            |
+| **Binary Search Tree (Balanced)**  | Retrieve  | O(log n)                 | Based on the height of the tree.             |
+|                                    | Insert    | O(log n)                 | Find the right place and insert.             |
+|                                    | Delete    | O(log n)                 | Find the node and then delete using BST rules. |
+|                                    | Traverse  | O(n)                     | In-order traversal to visit all nodes.       |
+| **Hash Table**                     | Retrieve  | O(1) average, O(n) worst-case | For average case and when many collisions occur. |
+|                                    | Insert    | O(1) average, O(n) worst-case | For average case and when many collisions occur. |
+|                                    | Delete    | O(1) average, O(n) worst-case | For average case and when many collisions occur. |
+|                                    | Traverse  | O(n)                     | Must visit each bucket and handle collisions. |
 
-3. **Linked List (Unsorted or Sorted):**
-   - Retrieve: O(n) — Linear search.
-   - Insert: O(1) for unsorted (if inserting at the beginning); O(n) for sorted to find the correct position.
-   - Delete: O(n) — Search for the element and then remove it.
-   - Traverse: O(n) — Linear traversal.
-
-4. **Binary Search Tree (Balanced, e.g., AVL or Red-Black Tree):**
-   - Retrieve: O(log n) — Based on the height of the tree.
-   - Insert: O(log n) — Find the right place and insert.
-   - Delete: O(log n) — Find the node and then delete using BST rules.
-   - Traverse: O(n) — In-order traversal to visit all nodes.
-
-5. **Hash Table:**
-   - Retrieve: O(1) average; O(n) worst-case if many collisions occur.
-   - Insert: O(1) average; O(n) worst-case for the same reason.
-   - Delete: O(1) average; O(n) worst-case.
-   - Traverse: O(n) — Must visit each bucket and handle collisions.
+This table provides a concise overview of the efficiency of common operations for different data structures. The actual performance may vary based on specific implementations and use cases.
 
 These efficiencies assume average-case scenarios for some structures, like hash tables, and balanced conditions for trees. The actual performance can vary based on specific implementation details, the nature of the data, and the operations performed.
